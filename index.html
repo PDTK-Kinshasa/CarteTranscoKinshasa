@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+<link href="index_files/htmltools-fill-0.5.8/fill.css" rel="stylesheet" />
+<script src="index_files/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="index_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="index_files/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="index_files/leaflet-1.3.1/leaflet.js"></script>
+<link href="index_files/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="index_files/proj4-2.6.2/proj4.min.js"></script>
+<script src="index_files/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="index_files/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="index_files/leaflet-binding-2.2.2/leaflet.js"></script>
+  <title>leaflet</title>
+</head>
+<body>
+<div id="htmlwidget_container">
+  <div class="leaflet html-widget html-fill-item" id="htmlwidget-3b0402f637db317600f8" style="width:100%;height:400px;"></div>
+</div>
+<script type="application/json" data-for="htmlwidget-3b0402f637db317600f8">{"x":{"options":{"minZoom":0,"maxZoom":4,"crs":{"crsClass":"L.CRS.Simple","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"zoomSnap":0.25},"setView":[[384,539],2,[]]},"evals":[],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\n    function(el, x) {\n      var map = this;\n      var imageUrl = 'busmap_Transco_updated_250520_FNL_compressed.jpg';\n      var imageBounds = [[0, 0], [768, 1078]];\n      L.imageOverlay(imageUrl, imageBounds).addTo(map);\n      map.fitBounds(imageBounds);\n      map.setZoom(2);  // ここでズーム調整（1〜3くらいが推奨）\n    }\n    ).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
+<script type="application/htmlwidget-sizing" data-for="htmlwidget-3b0402f637db317600f8">{"viewer":{"width":"100%","height":400,"padding":0,"fill":true},"browser":{"width":"100%","height":400,"padding":0,"fill":true}}</script>
+</body>
+</html>
